@@ -1,0 +1,40 @@
+body {  
+    background-image: url('artic-fox.png');
+    background-repeat: no-repeat; 
+    background-attachment: fixed; 
+    background-size: cover; 
+}
+h1 {
+    color: red;
+}
+img {
+    width: 400px;
+}
+#thirdDiv {
+    height: 600px;
+    width: 500px;
+    background-color: navy;
+    padding: 50px;
+    border: 5px solid green;
+    margin-bottom: 22px;
+}
+#spanId {
+    font-size: 18px;
+    margin: 50px;
+    text-align: center;
+}
+a {
+    text-align: center;
+    margin:50px;
+}
+div {
+    margin: auto;
+    width: 50%;
+    text-align: center;
+}
+.divClass {
+    margin-bottom: 20px;
+}
+li {
+    text-align: left;
+}
