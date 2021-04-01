@@ -56,7 +56,7 @@ function capToFront(s) {
       mayusculas += s[i];
     }
     if (s[i] !== s[i].toUpperCase()) {
-      minusculas += s[i]
+      minusculas += s[i];
     }
   }
   nuevaPalabra = mayusculas + minusculas;
