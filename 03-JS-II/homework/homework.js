@@ -215,7 +215,7 @@ function doWhile(numero) {
   var i = 0;
   let total = numero;
   do {
-    total = total + 5;
+    total += 5;
     i++;
   }
   while (i < 8);
