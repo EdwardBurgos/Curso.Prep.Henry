@@ -39,8 +39,8 @@ function agregarStringInvertida() {
   // Pista: Necesitarás usar "this" dentro de "reverse"
   String.prototype.reverse = function() {
     let cadena = '';
-    for (let j = this.length - 1;  j < this.length && j >= 0 ; j--) {
-      cadena += this[j];
+    for (let i = this.length - 1;  i < this.length && i >= 0 ; i--) {
+      cadena += this[i];
     }
     return cadena;
   }
