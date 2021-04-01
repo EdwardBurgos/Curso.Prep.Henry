@@ -27,7 +27,9 @@ function incrementarPorUno(array) {
   // y devuelve el array
   // Tu código:
   for (let i = 0; i < array.length; i++) {
-    array[i]++;
+    if (Number.isInteger(array[i])) {
+      array[i]++;
+    }
   }
   return array;
 }
