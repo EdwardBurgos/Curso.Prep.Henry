@@ -37,8 +37,8 @@ function agregarStringInvertida() {
   // Ej: 'menem'.reverse() => menem
   // 'toni'.reverse() => 'inot'
   // Pista: Necesitarás usar "this" dentro de "reverse"
-  let cadena = '';
   String.prototype.reverse = function() {
+    let cadena = '';
     for (let j = this.length - 1;  j < this.length && j >= 0 ; j--) {
       cadena += this[j];
     }
