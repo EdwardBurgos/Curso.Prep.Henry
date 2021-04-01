@@ -153,6 +153,7 @@ function buscoInterseccion(arreglo1, arreglo2){
     for (let j = 0; j < arreglo2.length; j++) {
       if (arreglo1[i] === arreglo2[j]) {
         interseccion.push(arreglo1[i]);
+        break;
       }
     }
   }
