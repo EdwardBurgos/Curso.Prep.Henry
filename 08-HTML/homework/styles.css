@@ -37,4 +37,5 @@ div {
 }
 li {
     text-align: left;
+    list-style: none;
 }
